@@ -91,6 +91,20 @@ ul {
   opacity: 1;
 }
 
+#form {
+  display: flex;
+  width: 30%;
+  flex-direction: column;
+  justify-content: center;
+  background-repeat: no-repeat;
+  background-position: center 90%;
+  margin: 2%;
+  padding: 1%;
+  outline: #3B0B0B dotted thick;
+  transition: 0.75s;
+  opacity: 1;
+}
+
 .minBackgroundSneak {
   position: absolute;
   width: inherit;
@@ -120,8 +134,8 @@ ul {
 
 .maxPigTile {
   background-size: cover;
-  width: 500px;
-  height: 500px;
+  width: 250px;
+  height: 250px;
 }
 
 .pigTile:hover {
@@ -139,6 +153,8 @@ ul {
   padding: 1%;
   clear: both;
 }
+
+
 
 
 @keyframes App-logo-spin {
